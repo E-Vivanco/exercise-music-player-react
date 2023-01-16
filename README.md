@@ -28,6 +28,10 @@ $ git clone https://github.com/4GeeksAcademy/react-hello
 - Use the react ref attribute to get the audio tag from the DOM.
 - Make sure to have only one `<audio>` tag on the entire project, use `ref` to change its src url.
 
+## Recommendations
+- Use the function `<useFetch>`
+- Don't call the setState function because you will lose the state of the audio tag if the render function is called
+
 ## 😎 Feeling Confident?
 
 The following features are not needed for the final solution, but you can develop them if you feel confident enough:
